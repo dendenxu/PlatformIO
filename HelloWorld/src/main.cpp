@@ -2,16 +2,16 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-// ! Pins are all defined here.
+// - Pins are all defined here.
 vector<int> TriggerPins = {
     PB8,
     PB6,
     PB4,
     PG15,
-    PG13,
-    PG11,
-    PG9,
-    PD6,
+    // PG13,
+    // PG11,
+    // PG9,
+    // PD6,
     // PD4,
     // PD2,
 };
@@ -20,10 +20,10 @@ vector<int> EchoPins = {
     PB7,
     PB5,
     PB3,
-    PG14,
-    PG12,
-    PG10,
-    PD7,
+    // PG14,
+    // PG12,
+    // PG10,
+    // PD7,
     // PD5,
     // PD3,
 };
